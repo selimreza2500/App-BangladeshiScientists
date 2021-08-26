@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="#00FFB7"
+    tools:context=".ListActivity">
+
+    <ListView
+        android:id="@+id/listViewId"
+        android:padding="5dp"
+        android:divider="#000000"
+        android:dividerHeight="2dp"
+        android:listSelector="#4CAF50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+</LinearLayout>
